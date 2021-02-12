@@ -16,6 +16,18 @@ set background=dark
 set nu
 
 "syntax
-syntax on
+if has('filetype')
+  filetype indent plugin on
+endif
 
+if has('syntax')
+  syntax on
+end if
 
+"mouse
+if has('mouse')
+  set mouse=a
+endif
+
+"error sounds
+set visualbell
