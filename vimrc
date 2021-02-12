@@ -17,19 +17,19 @@ set nu
 
 "syntax
 if has('filetype')
-  filetype indent plugin on
+	filetype indent plugin on
 endif
 
 if has('syntax')
-  syntax on
-end if
+	syntax on
+endif
 
-"mouse
 if has('mouse')
-  set mouse=a
+	set mouse=a
 endif
 
 "error sounds
 set visualbell
+set t_vb=
 
-"change file format :set fileformat=unix
+"chage file format :set fileformat=unix
