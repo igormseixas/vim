@@ -31,3 +31,5 @@ endif
 
 "error sounds
 set visualbell
+
+"change file format :set fileformat=unix
